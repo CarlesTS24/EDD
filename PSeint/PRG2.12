@@ -1,0 +1,34 @@
+Algoritmo sin_titulo
+	Escribir 'Disme una nota'
+	Leer Num
+	Si Num<0 Entonces
+		Escribir 'ERROR'
+	SiNo
+		Si Num>10 Entonces
+			Escribir 'ERROR'
+		SiNo
+			Si Num<4 Entonces
+				Escribir 'Molt deficient'
+			SiNo
+				Si Num<5 Entonces
+					Escribir 'Insuficient'
+				SiNo
+					Si Num<6 Entonces
+						Escribir 'Suficient'
+					SiNo
+						Si Num<7 Entonces
+							Escribir 'Bé'
+						SiNo
+							Si Num<9 Entonces
+								Escribir 'Notable'
+							SiNo
+								Escribir 'Excel·lent'
+							FinSi
+						FinSi
+					FinSi
+				FinSi
+			FinSi
+		FinSi
+	FinSi
+FinAlgoritmo
+

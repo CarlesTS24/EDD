@@ -1,0 +1,20 @@
+Algoritmo sin_titulo
+	Escribir "Disme un numero"
+	Leer Num1
+	Escribir "Disme un altre numero"
+	Leer Num2
+	Escribir "Disme un tercer numero"
+	Leer Num3
+	si Num1 < Num2
+		si Num3 < Num2
+			Escribir "Els dos numero mes menuts son (" Num1 " i " Num3 ") el primer i el tercer numero"
+		SiNo
+			Escribir "Els dos numero mes menuts son (" Num1 " i " Num2 ") el primer i el segon numero"
+		FinSi
+	SiNo
+		si Num1 < Num3
+		SiNo
+			Escribir "Els dos numeros mes menuts son (" Num2 " i " Num3 ") el segon i el tercer numero"
+		FinSi
+	FinSi
+FinAlgoritmo

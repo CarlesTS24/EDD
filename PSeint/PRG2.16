@@ -1,0 +1,14 @@
+Algoritmo sin_titulo
+	Escribir "Disme el any de naixement"
+	Leer any_naix
+	Escribir "Disme el any de mort"
+	Leer any_mort
+	Mientras any_mort < any_naix
+		Escribir "Una persona no pot morir antes de naixer"
+		Escribir "Disme el any de naixement"
+		Leer any_naix
+		Escribir "Disme el any de mort"
+		Leer any_mort
+	FinMientras
+	Escribir "La persona va naixer al " any_naix " i va morir al any " any_mort
+FinAlgoritmo

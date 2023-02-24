@@ -1,0 +1,5 @@
+Algoritmo sin_titulo
+	Para i<-0 Hasta 90 Con Paso 9
+		Escribir i
+	FinPara
+FinAlgoritmo

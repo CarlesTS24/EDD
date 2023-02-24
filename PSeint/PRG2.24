@@ -1,0 +1,22 @@
+Algoritmo sin_titulo
+	num_neg = 0
+	num_pos = 0
+	num_aca = 0
+	Repetir
+		Escribir "Disme un numero"
+		Leer Num
+		si num !=0
+			si num<0 Entonces
+				num_neg = num_neg + 1
+			SiNo
+				num_pos = num_pos + 1
+			FinSi
+			si Num % 10 == 0 Entonces
+				num_aca = num_aca + 1 
+			FinSi
+		FinSi
+	Hasta Que Num == 0
+	Escribir "Numeros positius = " num_pos
+	Escribir "Numeros negatius = " num_neg
+	Escribir "Numeros acabats en 0 = " num_aca
+FinAlgoritmo

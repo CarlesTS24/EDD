@@ -1,0 +1,7 @@
+Algoritmo sin_titulo
+	mult = 1
+	Repetir
+		Escribir "9 * " mult " = " 9 * mult
+		mult = mult + 1
+	Hasta Que mult > 10
+FinAlgoritmo

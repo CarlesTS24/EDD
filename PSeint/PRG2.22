@@ -1,0 +1,12 @@
+Algoritmo sin_titulo
+	num_fall = 0
+	Repetir
+		Escribir "Quina es larrel cuadrada de 225"
+		Leer resp
+		si resp !=15
+			Escribir "No, torna a provar"
+			num_fall = num_fall + 1
+		FinSi
+	Hasta Que resp == 15
+	Escribir "has fet un total de " num_fall " fallos"
+FinAlgoritmo

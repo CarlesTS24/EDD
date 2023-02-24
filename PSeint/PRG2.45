@@ -1,0 +1,14 @@
+Algoritmo sin_titulo
+	Escribir "Quants productes vas a comprar"
+	Leer num_prod
+	Escribir "Quin preu te el producte que vas a comprar"
+	Leer preu_prod
+	preu_total=num_prod*preu_prod
+	preu_iva=preu_total*(16/100)
+	preu_tot_iva=preu_total+preu_iva
+	si preu_tot_iva>300
+		desc=preu_tot_iva*(5/100)
+		preu_tot_iva=preu_tot_iva-desc
+	FinSi
+	Escribir "Limport a pagar es de: " preu_tot_iva
+FinAlgoritmo

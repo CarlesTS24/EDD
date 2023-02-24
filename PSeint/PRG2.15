@@ -1,0 +1,9 @@
+Algoritmo sin_titulo
+	Escribir "Disme un numero"
+	Leer Num1
+	Mientras Num1 <=0
+		Escribir "Els numeros son negatius, perfavor introdueix numeros positius"
+		Leer Num1
+	FinMientras
+	Escribir 3.14*(Num1^2)
+FinAlgoritmo

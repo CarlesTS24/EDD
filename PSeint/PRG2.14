@@ -1,0 +1,16 @@
+Algoritmo sin_titulo
+	Escribir "Dia de la semana"
+	Leer Num_Dia
+	Segun Num_Dia Hacer
+		1: n <- "Dilluns"
+		2: n <- "Dimarts"
+		3: n <- "Dimecres"
+		4: n <- "Dijous"
+		5: n <- "Divendres"
+		6: n <- "Dissabte"
+		7: n <- "Dumenge"
+		De Otro Modo:
+			n <- "ERROR"
+	FinSegun
+	Escribir "Dia de la semana:", n
+FinAlgoritmo

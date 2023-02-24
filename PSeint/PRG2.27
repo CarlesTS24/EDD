@@ -1,0 +1,12 @@
+Algoritmo sin_titulo
+	not_alu = 0
+	not_tots = 0
+	not_mig = 0
+	Para num_alu = 1 Hasta 23
+		Escribir "Disme la nota del alumne"
+		Leer not_alu
+		not_tots = not_tots + not_alu
+	FinPara
+	not_mig = not_tots / 23
+	Escribir "La nota mitja de la clase es: " not_mig
+FinAlgoritmo

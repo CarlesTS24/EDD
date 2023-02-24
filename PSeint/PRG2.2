@@ -1,0 +1,15 @@
+Algoritmo salari_net
+	Escribir "Com li diuen al treballador"
+	Leer Treballador
+	Escribir "Quantes hores ha treballat?"
+	Leer Hores
+	Escribir "Quant cobra per hora"
+	Leer Preu
+	ret_apl = 0.15
+	Escribir "El treballador " Treballador
+	Escribir "Te un salari brut de " Hores*Preu
+	salari_brut= Hores*Preu
+	Escribir "El import retingut es de " salari_brut*ret_apl
+	impostos = salari_brut*ret_apl
+	Escribir "El salri net de " Treballador " es de " salari_brut-impostos
+FinAlgoritmo

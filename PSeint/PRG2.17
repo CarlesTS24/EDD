@@ -1,0 +1,7 @@
+Algoritmo sin_titulo
+	Escribir "Disme un numero"
+	Leer Num
+	Para i<-Num Hasta 1
+		Escribir i
+	FinPara
+FinAlgoritmo

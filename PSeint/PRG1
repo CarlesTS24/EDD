@@ -1,0 +1,49 @@
+8
+
+a)
+	(b > d) and (c > d)
+b)
+	(a == b) and (b == c)
+c)
+	(a == b) and (b == c) and (c != d)
+d)
+	(b >= a) and (b <= c) or NOT ((b >= a) and (b <= c))
+e)
+	(a < c) and (b >= a) and (b <= c) 
+f)
+	(a == b)  or  (a == c)  or  (b == c)
+g)
+	((a == b) and (a != c)) or ((b != a) and (b == c)) or ((c == a) and (c != b))
+h)
+	NOT (a==b and b==c)
+	a!=b or b!=c
+	
+
+
+9
+
+a)
+	(x % 10 = 0) or (x % 7 = 0)
+b)
+	(preu >= 100) and (preu <= 100)
+
+
+
+10
+
+	(AA - AN > 18) or ((AA - AN = 18) and (MN < MA)) or ((AA - AN = 18) and (MA == MN) and (DN <= DA))
+
+
+	
+11
+
+a)
+	(nl + nv + nm + nf) / 4 > 5
+b)
+	(nm > (nl + nv + nm + nf) / 4) and (nv > (nl + nv + nm + nf) / 4)
+c)
+	(nl > 5) or (nv > 5) or (nm > 5) or (nf >5)
+d)
+	(nl > 5) and (nv > 5) and (nm > 5) and (nf >5)
+e)
+	((nl + nv + nm + nf) / 4 >= 5) and ((opcion == "L" and (nl + nv) / 2 >= 5) or (opcion == "C" and (nm + nf) / 2 >= 5))

@@ -1,0 +1,25 @@
+Algoritmo sin_titulo
+	Escribir "Donam un numero"
+	Leer Num1
+	Escribir "Donam un segon numero"
+	Leer Num2
+	Escribir "Disme +, -, *, /"
+	Leer Simb
+	si Simb = "+"
+		Escribir Num1 + Num2
+	SiNo
+		si Simb= "-"
+			Escribir Num1 - Num2
+		SiNo
+			si Simb= "*"
+				Escribir Num1 * Num2
+			SiNo
+				si Simb= "/"
+					Escribir Num1 / Num2
+				SiNo
+					Escribir "ERROR"
+				FinSi
+			FinSi
+		FinSi
+	FinSi
+FinAlgoritmo

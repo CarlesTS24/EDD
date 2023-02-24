@@ -1,0 +1,17 @@
+Algoritmo sin_titulo
+	div_2 = 0
+	div_3 = 0
+	div_2_3 = 0
+	Para num_div = 1 Hasta 101
+		si num_div % 2 == 0 Entonces
+			div_2 = div_2 + 1
+		FinSi
+		si num_div % 3 == 0 Entonces
+			div_3 = div_3 + 1
+		FinSi
+		si num_div % 2 == 0 y num_div % 3 == 0 Entonces
+			div_2_3 = div_2_3 + 1
+		FinSi
+	FinPara
+	Escribir "Hi han un total de " div_2 " numeros divisibles per 2, " div_3 " de numeros divisibles per 3 y " div_2_3 " de numeros divisibles per 2 y 3."
+FinAlgoritmo

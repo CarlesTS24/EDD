@@ -1,0 +1,17 @@
+opcion = 0
+while True:
+    print("""
+    Dime, ¿qué quieres hacer?
+    
+    1) Introduir un amic
+    2) Esborrar un amic
+    3) Mostrar la llista
+    4) Mostrar per inicial
+    5) Modificar amic
+    6) Ordenar la llista alfabeticament
+    7) Buidar la llista
+    8) Ixir
+    """)
+    opcion = int(input("Elige una opción: ") )
+
+    if

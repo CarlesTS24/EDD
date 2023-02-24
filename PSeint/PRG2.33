@@ -1,0 +1,11 @@
+Algoritmo sin_titulo
+	b=1
+	Para i<-1 hasta 100 Con Paso 1
+		a=a+i
+		b=b*i
+	FinPara
+	c=a/100
+	Escribir "La suma es igual a: " a
+	Escribir "El producte es igual a: " b
+	Escribir "La mitjana es igual a: " c
+FinAlgoritmo

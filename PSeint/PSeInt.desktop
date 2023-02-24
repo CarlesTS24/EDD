@@ -1,0 +1,7 @@
+[Desktop Entry]
+Comment=Editor e intérprete de pseudocódigo
+Encoding=UTF-8
+Icon="/tmp/.mount_pseintUMqK1U/usr/share/pseInt/imgs/icon64.png"
+Name=PSeInt
+Type=Link
+URL="/tmp/.mount_pseintUMqK1U/usr/share/pseInt/wxPSeInt"

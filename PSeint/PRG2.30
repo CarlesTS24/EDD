@@ -1,0 +1,10 @@
+Algoritmo sin_titulo
+	Escribir "Donam un numero"
+	leer a
+	Escribir "Donam un altre numero"
+	Leer b
+	Para i = 1 Hasta b
+		mult = mult + a
+	FinPara
+	Escribir "El resultat de la multiplicació es: " mult
+FinAlgoritmo

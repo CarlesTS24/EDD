@@ -1,0 +1,11 @@
+Algoritmo sin_titulo
+	Escribir "Escriu un numero"
+	Leer a
+	Escribir "Escriu un segon numero"
+	Leer b
+	Mientras a < b 
+		a = a + 2
+		b = b - 3
+	FinMientras
+	Escribir "El primer numero ara es: " a " y el segon numero ara es: " b
+FinAlgoritmo

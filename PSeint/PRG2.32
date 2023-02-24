@@ -1,0 +1,10 @@
+Algoritmo sin_titulo
+	a = 1
+	Para i<-1 hasta 40 Con Paso 1
+		si i%2=0
+		SiNo
+			a=a*i
+		FinSi
+	FinPara
+	Escribir "El producte de tots el numeros imparells es: " a
+FinAlgoritmo

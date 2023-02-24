@@ -1,0 +1,11 @@
+Algoritmo sin_titulo
+	Escribir "Disme un numero"
+	Leer Num
+	divi = 0
+	Para num_div = 1 Hasta num + 1
+		si Num % num_div == 0 Entonces
+			divi = divi + 1
+		FinSi
+	FinPara
+	Escribir "Este numero tiene " divi " divisores."
+FinAlgoritmo

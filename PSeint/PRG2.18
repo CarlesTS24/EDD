@@ -1,0 +1,15 @@
+Algoritmo sin_titulo
+	Escribir "Disme el primer numero"
+	Leer Num1
+	Escribir "Disme el ultim numnero"
+	leer Num2
+	si Num1<Num2
+		Para i<-Num1 Hasta Num2 Con Paso 3
+			Escribir i
+		FinPara
+	SiNo
+		Para i<-Num1 Hasta Num2 Con Paso -3
+			Escribir i
+		FinPara
+	FinSi
+FinAlgoritmo

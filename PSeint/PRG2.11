@@ -1,0 +1,28 @@
+Algoritmo sin_titulo
+	Escribir "Disme un numero"
+	Leer Num1
+	Escribir "Disme un altre numero"
+	Leer Num2
+	Escribir "Disme un tercer numero"
+	Leer Num3
+	si Num1 < Num2
+		si Num3 < Num2
+			sum_num_xic <- Num1 + Num3
+			Num_gran = Num2
+		SiNo
+			sum_num_xic <- Num1 + Num2
+			Num_gran <- Num3
+		FinSi
+	SiNo
+		si Num1 < Num3
+		SiNo
+			sum_num_xic <- Num2 + Num3
+			Num_gran <- Num1
+		FinSi
+	FinSi
+	si sum_num_xic = Num_gran
+		Escribir "Es un triangle"
+	SiNo
+		Escribir "No es un  triangle"
+	FinSi
+FinAlgoritmo
